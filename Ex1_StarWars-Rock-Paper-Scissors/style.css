@@ -1,0 +1,62 @@
+/* body{
+    background-image: url('/Ex1_StarWars-Rock-Paper-Scissors/images/outerspace.jpg');
+    
+} */
+.row{
+    margin-bottom: 30px;
+    
+}
+#choices{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+h3{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+   
+}
+h4{
+    text-align: center;
+}
+#userPlay, #compPlay{
+    min-height: 500px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    border-radius: 40px;
+    border: 10px dotted yellow;
+}
+
+.rock{
+    background-image: url('/Ex1_StarWars-Rock-Paper-Scissors/images/3x_1.png');
+}
+.paper{
+    background-image: url('/Ex1_StarWars-Rock-Paper-Scissors/images/3x_2.png');
+}
+.scissors{
+    background-image: url('/Ex1_StarWars-Rock-Paper-Scissors/images/3x_3.png');
+}
+.winner{
+    background-color: rgb(22, 122, 22);
+}
+.loser{
+    background-color: crimson;
+}
+.draw{
+    background-color: cyan;
+}
+#starwars{
+    width: 50%;
+    height: auto;
+    text-align: center;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }

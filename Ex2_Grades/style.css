@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('/Ex2_Grades/schoolBooks.jpg');
+    background-size: cover;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+input, button{
+    align-items: center;
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-top: 2%;
+}
+
+#averageResult, #message{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    color: crimson;
+    text-align: center;
+}
